@@ -3,7 +3,7 @@ require 'rails_helper'
 
 RSpec.describe Book, type: :model do
   subject do
-    described_class.new(title: 'harry potter', author: 'jk rowling', price: 15, published_date: Date.parse('2019-7-8'))
+    described_class.new(title: 'harry potter', author: 'JK rowling', price: 15, published_date: Date.parse('2019-7-8'))
   end
 
   it 'is valid with valid attributes' do
